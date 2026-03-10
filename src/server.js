@@ -26,3 +26,9 @@ if (process.env.NODE_ENV === "production") {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+app.get("/test", (req, res) => {
+  res.json({ message: "Test route is working!" });
+});
+
+
