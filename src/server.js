@@ -37,5 +37,10 @@ app.get("/api/test", (req, res) => {
 });
 
 
+app.get("/api/test2", (req, res) => {
+  res.json({ message: "pipeline working 2" });
+});
+
+
 
 
