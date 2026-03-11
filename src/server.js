@@ -27,19 +27,6 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-app.get("/test", (req, res) => {
-  res.json({ message: "Test route is working!" });
-});
-
-
-app.get("/api/test", (req, res) => {
-  res.json({ message: "pipeline working" });
-});
-
-
-app.get("/api/test2", (req, res) => {
-  res.json({ message: "pipeline working 2" });
-});
 
 
 
